@@ -34,10 +34,7 @@ def main():
     
     while(True):
         
-        cur = x * n # <--- first solution
         print ' ' * abs(spc) + cur
-        #print ' ' * abs(spc) + newx[:n]
-        
         # Alternatively could have printed using string format. Same effect,
         # less code
         
